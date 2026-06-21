@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Арт-практики — BREAST ART</title>
+<meta name="description" content="Арт-практики тілесного живопису для жінок з Діаною Чмих. Індивідуальні та групові формати, офлайн і онлайн. Зустріч із собою через рух, дотик і колір.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://breastart.github.io/assets/css/styles.css">
+<style>
+  .lang-switch{display:inline-flex;border:1px solid var(--line);border-radius:100px;overflow:hidden;margin-left:14px}
+  .lang-switch button{font:inherit;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;background:none;border:0;color:var(--ink-soft);cursor:pointer;transition:.18s}
+  .lang-switch button[aria-pressed="true"]{background:var(--accent);color:#fff}
+  .site-nav{align-items:center}
+  .cur{font-size:13px;color:var(--ink-soft);display:block;margin-top:3px;font-weight:400}
+  .enquiry{max-width:560px;margin-top:18px}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <a class="brand" href="https://breastart.github.io/index.html">BREAST<span>ART</span></a>
+  <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+  <nav class="site-nav">
+    <a href="https://breastart.github.io/paintings.html" data-t="nav_paint">Картини</a>
+    <a href="https://breastart.github.io/prints.html" data-t="nav_print">Принти</a>
+    <a href="https://breastart.github.io/about.html" data-t="nav_about">Про художницю</a>
+    <a href="https://breastart.github.io/book.html" data-t="nav_book">Книга</a>
+    <span class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="uk" aria-pressed="true">UA</button>
+      <button data-lang="en" aria-pressed="false">EN</button>
+    </span>
+  </nav>
+</header>
+
+<div class="wrap page-head">
+  <div class="eyebrow" data-t="eyebrow">Арт-практики для жінок</div>
+  <h1 data-t="h1">Практика тілесного живопису</h1>
+  <p class="intro" data-t="intro">Досвід зустрічі із собою через рух, дотик і колір. Ви створюєте власну роботу тілом — без вміння малювати, без оцінок. У безпечному просторі відпускаєте контроль, проживаєте емоції й виходите з відчуттям свободи та цілісності. Залишається не лише картина, а новий вимір себе.</p>
+  <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap">
+    <a class="btn gold" href="https://calendly.com/sisidiart/15min" target="_blank" rel="noopener" data-t="cta_book">Записатися (Calendly)</a>
+    <a class="btn" href="https://www.instagram.com/breast__art/" target="_blank" rel="noopener" data-t="cta_ig">Запитати в Instagram</a>
+  </div>
+</div>
+
+<div class="wrap section" style="padding-top:40px">
+  <!-- STEPS -->
+  <div class="section-head"><div><div class="eyebrow" data-t="how_eyebrow">Як проходить</div><h2 data-t="how_h">Пʼять кроків практики</h2></div></div>
+  <div class="steps-2col">
+    <div class="cv">
+      <div class="cv-row"><span class="yr">1</span><span class="ev" data-t="step1"><b>Знайомство і налаштування</b><br>Коротка розмова та дихальна практика, щоб зняти напругу й відчути себе тут і зараз. Жодної підготовки чи вміння малювати не потрібно.</span></div>
+      <div class="cv-row"><span class="yr">2</span><span class="ev" data-t="step2"><b>Вибір кольору та наміру</b><br>Ви інтуїтивно обираєте палітру під свій стан. Колір стає мовою, якою ви говоритимете замість слів.</span></div>
+      <div class="cv-row"><span class="yr">3</span><span class="ev" data-t="step3"><b>Контакт із полотном</b><br>Ви створюєте роботу власним тілом — рух, дотик, відбиток. Тут немає «правильно» чи «гарно», є лише ваша щирість.</span></div>
+      <div class="cv-row"><span class="yr">4</span><span class="ev" data-t="step4"><b>Проживання емоцій</b><br>Спостерігаєте, як внутрішнє проявляється у фактурі. Діана веде, підтримує й допомагає відпустити контроль і табу.</span></div>
+      <div class="cv-row"><span class="yr">5</span><span class="ev" data-t="step5"><b>Завершення та інтеграція</b><br>Тиха розмова про те, що сталося. Ваша робота лишається з вами — як слід цього досвіду.</span></div>
+    </div>
+    <figure class="side-photo"><img src="https://breastart.github.io/images/artist-practice.jpg" alt="Діана Чмих із роботами"></figure>
+  </div>
+
+  <!-- FORMATS / PRICES -->
+  <div class="section-head" style="margin-top:64px"><div><div class="eyebrow" data-t="fmt_eyebrow">Формати та ціни</div><h2 data-t="fmt_h">Оберіть свій формат</h2></div></div>
+  <div class="pgrid" id="pgrid"></div>
+  <p class="intro" style="margin-top:18px;font-size:14px" data-t="fmt_note">Усі практики платні. Для офлайн-форматів матеріали (полотно, фарби) включені у вартість. Після бронювання на Calendly ви отримаєте посилання на оплату.</p>
+
+  <!-- TESTIMONIALS -->
+  <div class="section-head" style="margin-top:64px"><div><div class="eyebrow" data-t="rev_eyebrow">Відгуки</div><h2 data-t="rev_h">Що кажуть учасниці</h2></div></div>
+  <div class="video-reviews">
+    <figure class="vreview"><video controls preload="none" poster="https://breastart.github.io/assets/img/posters/review-1.jpg"><source src="https://breastart.github.io/videos/review-1.mp4" type="video/mp4"></video><figcaption data-t="rev1">@iren_kira — учасниця практики</figcaption></figure>
+    <figure class="vreview"><video controls preload="none" poster="https://breastart.github.io/assets/img/posters/review-2.jpg"><source src="https://breastart.github.io/videos/review-2.mp4" type="video/mp4"></video><figcaption data-t="rev2">Готова робота як подарунок</figcaption></figure>
+    <figure class="vreview"><video controls preload="none" poster="https://breastart.github.io/assets/img/posters/review-3.jpg"><source src="https://breastart.github.io/videos/review-3.mp4" type="video/mp4"></video><figcaption data-t="rev3">Про відчуття під час практики</figcaption></figure>
+    <figure class="vreview"><video controls preload="none" poster="https://breastart.github.io/assets/img/posters/review-4.jpg"><source src="https://breastart.github.io/videos/review-4.mp4" type="video/mp4"></video><figcaption data-t="rev4">Учасниця про свій досвід</figcaption></figure>
+  </div>
+  <p class="intro" style="font-size:14px;margin-top:16px"><span data-t="rev_more">Більше відгуків — у</span> <a href="https://www.instagram.com/breast__art/" target="_blank" rel="noopener" style="color:var(--accent-deep);border-bottom:1px solid var(--accent)">Instagram</a>.</p>
+
+  <!-- ENQUIRY -->
+  <div class="section-head" style="margin-top:64px"><div><div class="eyebrow" data-t="enq_eyebrow">Заявка</div><h2 data-t="enq_h">Залишити заявку</h2></div></div>
+  <p class="intro" style="font-size:15px" data-t="enq_intro">Зручно бронювати самостійно — натисніть «Записатися» вище (Calendly). Або залиште заявку тут, і Діана звʼяжеться з вами особисто.</p>
+  <div class="enquiry" id="enquiry"></div>
+</div>
+
+<footer class="site-foot">
+  <div class="foot-main">
+    <div class="foot-left"><span class="f-h">BREAST ART</span><p data-t="foot_about">Тілесний живопис Діани Чмих. Кожна робота — відбиток емоції, зафіксований у фактурі.</p></div>
+    <div class="foot-logo"><img class="stamp" src="https://breastart.github.io/assets/img/stamp.png" alt="BREAST ART · DDA — Діана Чмих"></div>
+    <div class="foot-right"><span class="f-h" data-t="foot_contact">Звʼязок</span>
+      <a href="https://www.tiktok.com/@breast__art" target="_blank" rel="noopener">TikTok @breast__art</a>
+      <a href="https://www.instagram.com/breast__art/" target="_blank" rel="noopener">Instagram @breast__art</a>
+      <a href="https://breastart.github.io/paintings.html" data-t="nav_paint">Картини</a>
+      <a href="https://breastart.github.io/offer.html" data-t="foot_offer">Оферта та повернення</a>
+    </div>
+  </div>
+  <div class="foot-base"><span>© 2026 BREAST ART · Діана Чмих</span></div>
+</footer>
+
+<script>
+/* ===================== CONFIG ===================== */
+const FORMSPREE = "https://formspree.io/f/mdavpeae";
+const ORDER_EMAIL = "sisidiart@gmail.com";
+const CALENDLY = "https://calendly.com/sisidiart/15min";
+const RATE_USD = 44.8, RATE_EUR = 51.5;
+const FORMATS = [
+  {id:"studio", uah:26000, per:false},
+  {id:"group",  uah:7800,  per:true},
+  {id:"online", uah:5200,  per:false}
+];
+
+/* ===================== i18n ===================== */
+const T = {
+  uk:{
+    nav_paint:"Картини", nav_print:"Принти", nav_about:"Про художницю", nav_book:"Книга",
+    eyebrow:"Арт-практики для жінок", h1:"Практика тілесного живопису",
+    intro:"Досвід зустрічі із собою через рух, дотик і колір. Ви створюєте власну роботу тілом — без вміння малювати, без оцінок. У безпечному просторі відпускаєте контроль, проживаєте емоції й виходите з відчуттям свободи та цілісності. Залишається не лише картина, а новий вимір себе.",
+    cta_book:"Записатися (Calendly)", cta_ig:"Запитати в Instagram",
+    how_eyebrow:"Як проходить", how_h:"Пʼять кроків практики",
+    step1:"<b>Знайомство і налаштування</b><br>Коротка розмова та дихальна практика, щоб зняти напругу й відчути себе тут і зараз. Жодної підготовки чи вміння малювати не потрібно.",
+    step2:"<b>Вибір кольору та наміру</b><br>Ви інтуїтивно обираєте палітру під свій стан. Колір стає мовою, якою ви говоритимете замість слів.",
+    step3:"<b>Контакт із полотном</b><br>Ви створюєте роботу власним тілом — рух, дотик, відбиток. Тут немає «правильно» чи «гарно», є лише ваша щирість.",
+    step4:"<b>Проживання емоцій</b><br>Спостерігаєте, як внутрішнє проявляється у фактурі. Діана веде, підтримує й допомагає відпустити контроль і табу.",
+    step5:"<b>Завершення та інтеграція</b><br>Тиха розмова про те, що сталося. Ваша робота лишається з вами — як слід цього досвіду.",
+    fmt_eyebrow:"Формати та ціни", fmt_h:"Оберіть свій формат",
+    fmt_note:"Усі практики платні. Для офлайн-форматів матеріали (полотно, фарби) включені у вартість. Після бронювання на Calendly ви отримаєте посилання на оплату.",
+    f_studio_h:"Індивідуально в студії", f_studio_m:"Київ · ~2 год · матеріали включені",
+    f_studio_d:"Особистий простір тет-а-тет із Діаною — найглибший формат занурення.",
+    f_group_h:"Офлайн-група", f_group_m:"до 12 жінок · матеріали включені",
+    f_group_d:"Спільна практика в безпечному жіночому колі — досвід, що єднає.",
+    f_online_h:"Онлайн індивідуально", f_online_m:"зі своїми матеріалами · супровід Діани",
+    f_online_d:"Та сама практика у себе вдома, з особистим веденням через відеозвʼязок.",
+    per_person:" / особа", book:"Записатися",
+    rev_eyebrow:"Відгуки", rev_h:"Що кажуть учасниці", rev_more:"Більше відгуків — у",
+    rev1:"@iren_kira — учасниця практики", rev2:"Готова робота як подарунок",
+    rev3:"Про відчуття під час практики", rev4:"Учасниця про свій досвід",
+    enq_eyebrow:"Заявка", enq_h:"Залишити заявку",
+    enq_intro:"Зручно бронювати самостійно — натисніть «Записатися» вище (Calendly). Або залиште заявку тут, і Діана звʼяжеться з вами особисто.",
+    e_format:"Формат *", e_name:"Імʼя *", e_contact:"Телефон, Telegram або e-mail *",
+    e_when:"Бажана дата / час", e_note:"Коментар",
+    send:"Надіслати заявку", err:"Будь ласка, заповніть формат, імʼя та контакт.",
+    thanks_h:"Дякуємо!", thanks_b:"Вашу заявку надіслано. Діана звʼяжеться з вами найближчим часом, щоб узгодити деталі й надіслати посилання на оплату.",
+    or_book:"Або забронюйте час одразу", close:"Закрити",
+    foot_about:"Тілесний живопис Діани Чмих. Кожна робота — відбиток емоції, зафіксований у фактурі.",
+    foot_contact:"Звʼязок", foot_offer:"Оферта та повернення"
+  },
+  en:{
+    nav_paint:"Paintings", nav_print:"Prints", nav_about:"About the artist", nav_book:"Book",
+    eyebrow:"Art practices for women", h1:"Body-painting practice",
+    intro:"An experience of meeting yourself through movement, touch and colour. You create your own work with your body — no drawing skills, no judgement. In a safe space you let go of control, move through emotion and leave with a sense of freedom and wholeness. What remains is not only a painting, but a new dimension of yourself.",
+    cta_book:"Book a session (Calendly)", cta_ig:"Ask on Instagram",
+    how_eyebrow:"How it works", how_h:"Five steps of the practice",
+    step1:"<b>Meeting and settling in</b><br>A short talk and a breathing practice to release tension and arrive in the here and now. No preparation or drawing skill needed.",
+    step2:"<b>Choosing colour and intention</b><br>You intuitively choose a palette for your state. Colour becomes the language you speak instead of words.",
+    step3:"<b>Contact with the canvas</b><br>You create the work with your own body — movement, touch, imprint. There is no «right» or «beautiful», only your honesty.",
+    step4:"<b>Living through emotion</b><br>You watch the inner world appear in the texture. Diana guides and supports you to release control and taboo.",
+    step5:"<b>Closing and integration</b><br>A quiet conversation about what happened. Your work stays with you — a trace of this experience.",
+    fmt_eyebrow:"Formats & prices", fmt_h:"Choose your format",
+    fmt_note:"All practices are paid. For offline formats, materials (canvas, paints) are included in the price. After booking on Calendly you will receive a payment link. Prices in USD/EUR are approximate (converted from UAH); the final invoice is issued in hryvnia.",
+    f_studio_h:"Individual, in studio", f_studio_m:"Kyiv · ~2 h · materials included",
+    f_studio_d:"A private one-to-one space with Diana — the deepest format of immersion.",
+    f_group_h:"Offline group", f_group_m:"up to 12 women · materials included",
+    f_group_d:"A shared practice in a safe circle of women — an experience that connects.",
+    f_online_h:"Individual, online", f_online_m:"with your own materials · Diana's guidance",
+    f_online_d:"The same practice at home, with personal guidance over video call.",
+    per_person:" / person", book:"Book",
+    rev_eyebrow:"Reviews", rev_h:"What participants say", rev_more:"More reviews on",
+    rev1:"@iren_kira — practice participant", rev2:"A finished work as a gift",
+    rev3:"On the feeling during the practice", rev4:"A participant on her experience",
+    enq_eyebrow:"Request", enq_h:"Send a request",
+    enq_intro:"You can book yourself — press «Book a session» above (Calendly). Or leave a request here and Diana will get in touch personally.",
+    e_format:"Format *", e_name:"Name *", e_contact:"Phone, Telegram or e-mail *",
+    e_when:"Preferred date / time", e_note:"Comment",
+    send:"Send request", err:"Please fill in format, name and contact.",
+    thanks_h:"Thank you!", thanks_b:"Your request has been sent. Diana will get in touch shortly to arrange the details and send a payment link.",
+    or_book:"Or book a time right away", close:"Close",
+    foot_about:"Body painting by Diana Chmykh. Each work is an imprint of emotion, fixed in texture.",
+    foot_contact:"Contact", foot_offer:"Offer & returns"
+  }
+};
+
+/* ===================== STATE ===================== */
+let lang = new URLSearchParams(location.search).get("lang");
+if(lang!=="en" && lang!=="uk") lang = localStorage.getItem("ba_lang") || "uk";
+const tr = k => (T[lang][k] ?? k);
+const fmt = n => n.toLocaleString("uk-UA").replace(/,/g," ");
+const roundNice = v => v>=100 ? Math.round(v/5)*5 : Math.round(v);
+function priceLabel(uah, per){
+  let base = lang==="uk" ? fmt(uah)+" грн" : "≈ $"+roundNice(uah/RATE_USD)+" / €"+roundNice(uah/RATE_EUR);
+  return base + (per ? tr("per_person") : "");
+}
+
+/* ===================== RENDER ===================== */
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-t]").forEach(el=>{ el.innerHTML = tr(el.dataset.t); });
+  document.querySelectorAll(".lang-switch button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lang===lang)));
+  document.title = (lang==="uk"?"Арт-практики":"Art practices")+" — BREAST ART";
+  renderFormats(); renderEnquiry();
+}
+document.querySelectorAll(".lang-switch button").forEach(b=>{
+  b.onclick=()=>{ lang=b.dataset.lang; localStorage.setItem("ba_lang",lang);
+    const u=new URL(location); u.searchParams.set("lang",lang); history.replaceState({},"",u); applyLang(); };
+});
+
+function renderFormats(){
+  const g=document.getElementById("pgrid");
+  g.innerHTML = FORMATS.map(f=>`
+    <article class="pcard">
+      <h3>${tr("f_"+f.id+"_h")}</h3>
+      <div class="pmeta">${tr("f_"+f.id+"_m")}</div>
+      <div class="pprice">${priceLabel(f.uah,f.per)}</div>
+      <p>${tr("f_"+f.id+"_d")}</p>
+      <a class="btn gold" href="${CALENDLY}" target="_blank" rel="noopener">${tr("book")}</a>
+    </article>`).join("");
+}
+
+function renderEnquiry(){
+  const opts = FORMATS.map(f=>`<option value="${f.id}">${tr("f_"+f.id+"_h")} — ${priceLabel(f.uah,f.per)}</option>`).join("");
+  document.getElementById("enquiry").innerHTML=`
+    <div class="field"><label>${tr("e_format")}</label><select id="q-format">${opts}</select></div>
+    <div class="field"><label>${tr("e_name")}</label><input id="q-name" autocomplete="name"></div>
+    <div class="field"><label>${tr("e_contact")}</label><input id="q-contact"></div>
+    <div class="field"><label>${tr("e_when")}</label><input id="q-when"></div>
+    <div class="field"><label>${tr("e_note")}</label><textarea id="q-note"></textarea></div>
+    <div class="order-actions"><button class="btn gold" id="q-send">${tr("send")}</button>
+      <a class="btn" href="${CALENDLY}" target="_blank" rel="noopener">${tr("or_book")}</a></div>
+    <div id="q-msg"></div>`;
+  document.getElementById("q-send").onclick=sendEnquiry;
+}
+function val(id){return (document.getElementById(id)||{}).value?.trim()||"";}
+function sendEnquiry(){
+  const fid=val("q-format"), name=val("q-name"), contact=val("q-contact"), when=val("q-when"), note=val("q-note");
+  if(!fid||!name||!contact){alert(tr("err"));return;}
+  const f=FORMATS.find(x=>x.id===fid);
+  const label=tr("f_"+fid+"_h"), price=priceLabel(f.uah,f.per);
+  const payload={type:"practice_enquiry",format:label,price_uah:f.uah,name,contact,preferred:when,comment:note,lang};
+  const summary=`${tr("enq_h")}\n— ${label} · ${price}\n— ${name} · ${contact}\n— ${tr("e_when")}: ${when||"—"}\n— ${note||"—"}`;
+  fetch(FORMSPREE,{method:"POST",headers:{"Accept":"application/json","Content-Type":"application/json"},body:JSON.stringify(payload)})
+    .then(r=>r.ok?thanks():Promise.reject()).catch(()=>mailtoFallback(label,summary));
+}
+function mailtoFallback(label,summary){
+  const subj=encodeURIComponent((lang==="uk"?"Заявка на практику: ":"Practice request: ")+label);
+  window.location.href=`mailto:${ORDER_EMAIL}?subject=${subj}&body=${encodeURIComponent(summary)}`;
+  thanks();
+}
+function thanks(){
+  document.getElementById("enquiry").innerHTML=`<div class="order-msg" style="text-align:left">
+    <div class="ok">${tr("thanks_h")}</div><p>${tr("thanks_b")}</p>
+    <div class="order-actions"><a class="btn gold" href="${CALENDLY}" target="_blank" rel="noopener">${tr("cta_book")}</a></div></div>`;
+}
+
+/* ===================== misc ===================== */
+const navToggle=document.querySelector(".nav-toggle"), nav=document.querySelector(".site-nav");
+if(navToggle) navToggle.onclick=()=>{const open=nav.classList.toggle("open");navToggle.setAttribute("aria-expanded",String(open));};
+applyLang();
+</script>
+</body>
+</html>
